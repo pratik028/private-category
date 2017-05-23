@@ -1,0 +1,12 @@
+#pc-make-primary-wrapper, #pc-make-primary-wrapper .hidden {
+    display: none;
+}
+
+a.pc-make-primary-term {
+    float: right;
+}
+
+span.pc-primary-term {
+    font-weight: 500;
+    float: right;
+}
