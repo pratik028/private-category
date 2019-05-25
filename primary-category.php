@@ -27,7 +27,7 @@ function pc_load_scripts() {
 add_action( 'admin_enqueue_scripts', 'pc_load_scripts' );
 
 
-function primary_category_footer_callback() {
+function primary_category_footer_method() {
 
     global $post_type, $post;
     if(!empty($post)) {
@@ -59,7 +59,7 @@ function primary_category_footer_callback() {
 
 }
 
-add_action('admin_footer', 'primary_category_footer_callback');
+add_action('admin_footer', 'primary_category_footer_method');
 
 function primary_category_save_post_callback( $post_id ) {
 
